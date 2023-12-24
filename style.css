@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    
+    display: flex;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color:  #0A2647;
+    letter-spacing: 0.5mm;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.nav-container{
+    display: flex  ;
+    
+}
+
+.a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: white  ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    letter-spacing: 0.5mm;
+}
+
+
+.a:hover{
+    color: #5B8FB9;
+    transition: 0.5s;
+}
+
+img{
+    position: relative;
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+}
+
+.navy-bc{
+    position: relative;
+    object-fit: cover;
+    margin-top: -85%;
+    margin-left: 40%;
+    width: 60%;
+    height: 30%;
+}
+
+.text{
+    color: white;
+    letter-spacing: 0.6mm;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size:xx-large;
+    position: absolute;
+    width: 25%;
+    margin-top: -355px;
+    margin-left: 61%;
+
+}
+
+p{
+    font-size: smaller;
+}
+
+.hero-container{
+    text-align: center;
+    padding: 60px;
+    margin-bottom: 20px;
+}
+
+.hero-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+.hero-head{
+    margin-top: 20px;
+    color: #0A2647;
+    font-size:xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hero-text{
+    font-size: 17px;
+    margin-top: 10px;
+    color: gray;
+}
+
+.skill{
+
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    background-color: #F2F2F2;
+}
+
+.skill-text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    color: #0A2647;
+    width: 80%;
+    height: 30px;
+    padding: 20px;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.skill-grid{
+    display: grid;
+    grid-template-rows: 250px 250px 250px;
+    grid-template-columns: repeat(4,300px);
+    
+}
+
+.grid-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.grid-img{
+    height: 150px;
+    width: 280px;
+}
+
+.grid-text{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #787676;
+    text-align: left;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+.about-container{
+    height: 350px;
+    width: 100%;
+    background-color: #0A2647;
+}
+
+.grid-about{
+    display: grid;
+    grid-template-rows: 300px;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+
+.about-text{
+    color: white;
+    font-size: medium;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 170px;
+    letter-spacing: 0.3mm;
+    line-height: 0.8cm;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.about-con{
+    color: white;
+    font-size: 10px;
+    font-family: sans-serif;
+    margin-top: 70px;
+    margin-left: 80px;
+    line-height: 0.8cm;
+    letter-spacing: 0.3mm;
+}
+
+.about-con2{
+    color: white;
+    font-size: 10px;
+    font-family: sans-serif;
+    margin-top: 70px;
+    line-height: 0.8cm;
+    letter-spacing: 0.3mm;
+}
+
+.about-a{
+    color: white;
+    margin-right: 10px;
+}
+
+.exp-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+
+.grid-exp{
+    display: grid;
+    grid-template-rows: 150px;
+    grid-template-columns: 60px 338px;
+    margin-bottom: 60px;
+}
+
+.icon-square{
+    height: 50px;
+    width: 50px;
+    background-color: #E9ECEF;
+    border-radius: 25%;
+    margin-left: 4.5px;
+}
+
+.svg-exp{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.exp-text-head{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 29px;
+    margin-top: 8px;
+    margin-left: 15px;
+    margin-bottom: 40px;
+}
+
+.exp-text{
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 16px;
+    color: #787676;
+}
+
+li{
+    list-style: none;
+}
+
+@media (max-width : 780px){
+    .grid-about{
+        display: block;
+        height: 800px;
+        background-color: #0A2647;
+    }
+
+
+    .about-text{
+    
+            color: white;
+            font-size: 15px;
+            font-family: sans-serif;
+            margin-top: 70px;
+            margin-left: 60px;
+            line-height: 0.8cm;
+            letter-spacing: 0.3mm;
+    }
+
+    .about-con2{
+    
+        color: white;
+        font-size: 10px;
+        font-family: sans-serif;
+        margin-top: 70px;
+        margin-left: 78px;
+        line-height: 0.8cm;
+        letter-spacing: 0.3mm;
+    
+}
+
+    .grid-exp{
+        display: block;
+    }
+
+    .exp-container{
+        display: block;
+        text-align: center;
+    }
+
+    .icon-square{
+        margin-left: 48%;
+    }
+
+    .svg-exp{
+        margin-left: -1px;
+    }
+
+    .skill-text{
+        text-align: center;
+    }
+
+    .skill-grid{
+        display: grid;
+        grid-template-rows: 250px 250px 250px 250px ;
+        grid-template-columns: repeat(2,300px);
+ 
+    }
+
+    .skill{
+        height: 1150px;
+    }
+
+    .hero-container{
+        align-items: center;
+    }
+
+    .navy-bc{
+        height: 60%;
+        width: 70%;
+        margin-left: 250px;
+    }
+
+    .text{
+        color: white;
+        letter-spacing: 0.6mm;
+        font-family: sans-serif;
+        font-weight: bolder;
+        font-size:medium;
+        position: absolute;
+        width: 25%;
+        margin-top: -255px;
+        margin-left: 53%;
+    
+    }
+
+    #navbar{
+        display: block  ;
+        
+    }
+
+    .nav-text{
+        margin-left: 70px;
+        line-height: 1cm;
+    }
+
+    .lap-desk{
+        width: 100%;
+        
+    }
+
+}
