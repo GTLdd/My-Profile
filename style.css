@@ -333,7 +333,7 @@ li{
         width: 25%;
         margin-top: -215px;
         margin-left: 7%;
-    
+        
     }
 
     #navbar{
@@ -349,11 +349,13 @@ li{
 
     .a{
         display: block;
+        font-size: small;
     }
 
     .nav-text{
         margin-left: 10px;
         line-height: 1cm;
+        font-size: medium;
     }
 
     .lap-desk{
