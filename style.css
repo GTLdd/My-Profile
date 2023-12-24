@@ -308,14 +308,20 @@ li{
         text-align: center;
     }
 
+    .home-con{
+        width: 100%;
+    }
+
     .hero-container{
         align-items: center;
     }
 
     .navy-bc{
-        height: 60%;
-        width: 70%;
+        height: 300px;
+        width: 400px;
         margin-left: 250px;
+       
+
     }
 
     .text{
@@ -326,18 +332,27 @@ li{
         font-size:medium;
         position: absolute;
         width: 25%;
-        margin-top: -255px;
+        margin-top: -215px;
         margin-left: 53%;
     
     }
 
     #navbar{
         display: block  ;
+        position: fixed;
         
     }
 
+    .nav-container{
+        display: block;
+    }
+
+    .a{
+        display: block;
+    }
+
     .nav-text{
-        margin-left: 70px;
+        margin-left: 40px;
         line-height: 1cm;
     }
 
