@@ -318,8 +318,8 @@ li{
 
     .navy-bc{
         height: 300px;
-        width: 400px;
-        margin-left: 10px;
+        width: 350px;
+        margin-left: 20px;
         
     }
 
@@ -344,7 +344,6 @@ li{
     }
 
     .nav-container{
-        display: block;
         width: 100%;
     }
 
