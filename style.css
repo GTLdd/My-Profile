@@ -248,12 +248,12 @@ li{
         display: block;
         height: 800px;
         background-color: #0A2647;
-        width:100%;
+        width: 100%;
     }
 
 
     .about-text{
-    
+            display: block;
             color: white;
             font-size: 15px;
             font-family: sans-serif;
@@ -264,7 +264,7 @@ li{
     }
 
     .about-con2{
-    
+        display: block;
         color: white;
         font-size: 10px;
         font-family: sans-serif;
@@ -275,26 +275,15 @@ li{
     
 }
 
-    .grid-exp{
-        display: block;
-    }
-
     .exp-container{
         display: block;
-        text-align: center;
+        width: 100%;
     }
 
-    .icon-square{
-        margin-left: 48%;
+    .grid-exp{
+        margin-left: 12%;
     }
-
-    .svg-exp{
-        margin-left: -1px;
-    }
-
-    .skill-text{
-        text-align: center;
-    }
+   
 
     .skill-grid{
         display: grid;
