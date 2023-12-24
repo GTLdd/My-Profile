@@ -286,14 +286,26 @@ li{
    
 
     .skill-grid{
-        display: grid;
-        grid-template-rows: 250px 250px 250px 250px ;
-        grid-template-columns: repeat(2,300px);
+        display: block;
+        text-align: center;
  
     }
 
+    .grid-img{
+        width: 100%;
+    }
+
     .skill{
-        height: 1150px;
+        height: 1850px;
+        text-align: center;
+    }
+
+    .item{
+        margin-bottom: 15px;
+    }
+
+    .grid-text{
+        text-align: center;
     }
 
     .hero-container{
